@@ -80,7 +80,7 @@ charactersMap.forEach((row, i) => {
           },
           scale: 3,
           animate: true,
-          dialogue: ['...', 'Hey mister, have you seen my Doggochu?']
+          dialogue: ['...', 'Hey mister, have you seen my Doggochu?', 'He is named Ryan']
         })
       )
     }
@@ -98,7 +98,7 @@ charactersMap.forEach((row, i) => {
             hold: 60
           },
           scale: 3,
-          dialogue: ['My bones hurt.']
+          dialogue: ['My bones hurt.', 'But not as much as the oppression to the middle class']
         })
       )
     }

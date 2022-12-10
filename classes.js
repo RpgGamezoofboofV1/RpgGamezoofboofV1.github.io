@@ -13,8 +13,8 @@ class Sprite {
     this.image = new Image()
     this.frames = { ...frames, val: 0, elapsed: 0 }
     this.image.onload = () => {
-      this.width = (this.image.width / this.frames.max) * scale
-      this.height = this.image.height * scale
+    this.width = (this.image.width / this.frames.max) * scale
+    this.height = this.image.height * scale
     }
     this.image.src = image.src
 
